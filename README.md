@@ -21,7 +21,7 @@
 
 🎓 Currently studying CS at the [Universidad Politécnica de Madrid (UPM)](https://www.upm.es).
 
-💼 Previous work experience at [RBZ Embedded Logics](https://www.rbz.es/es/).
+💼 Previous work experience as FPGA Engineer at [RBZ Embedded Logics](https://www.rbz.es/es/).
 
 ---
 
