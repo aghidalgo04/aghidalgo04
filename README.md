@@ -27,7 +27,3 @@
 
 ### My Projects
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **Project Name** | *Brief description of what it does...* | `Language` `Framework` |
-| **Project Name** | *Brief description of what it does...* | `Language` `Framework` |
