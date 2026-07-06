@@ -20,9 +20,9 @@
 
 ### Professional Summary
 
-* **Education:** Computer Engineering student at **Universidad Politécnica de Madrid (UPM)**. Currently completing an Erasmus+ exchange at **AGH University of Krakow**, specializing in **Radiation Resistance of Electronic Systems** and Advanced Embedded Systems.
+* **Education:** Computer Engineer graduated from **Universidad Politécnica de Madrid (UPM)**, with an international academic background via an Erasmus+ exchange at **AGH University of Krakow**, specializing in **Radiation Resistance of Electronic Systems** and Advanced Embedded Systems.
 * **Technical Focus:** Digital Design (VHDL/Verilog), Digital Signal Processing (DSP) on FPGAs, and RTOS-based firmware development.
-* **Experience:** Former **FPGA Engineer** at **RBZ Embedded Logics**. Experience in SoC architectures (Zynq/MicroBlaze), AXI-to-Wishbone interconnects, and Zephyr RTOS connectivity solutions.
+* **Experience:** Former **FPGA Engineer** at **RBZ Embedded Logics**. Experienced in SoC architectures (Zynq/MicroBlaze), AXI-to-Wishbone interconnects, and Zephyr RTOS connectivity solutions.
 
 ---
 
@@ -31,7 +31,7 @@
 | Category | Technologies |
 | --- | --- |
 | **Hardware / RTL** | VHDL, Verilog, Vivado, Vitis, Zynq-7000, Artix-7, MicroBlaze |
-| **Software / Firmware** | C, C++ (OOP), Python, Embedded C, Zephyr RTOS, ESP-IDF |
+| **Software / Firmware** | C, C++ (OOP), Python (NumPy, Matplotlib), Embedded C, Zephyr RTOS, ESP-IDF |
 | **Protocols & Buses** | AXI4, Wishbone, SPI (custom FSM), I2C, UART, MQTT, CAN |
 | **Design & Analysis** | KiCad (PCB Layout), Saleae Logic, SysML, MATLAB/Simulink |
 
@@ -39,10 +39,11 @@
 
 ### Featured Projects
 
-#### [Real-time ECG Analysis on FPGA](https://github.com/aghidalgo04/ECG_in_FPGA_Thesis)
-* **Bachelor Thesis:** Implementation of a high-performance DSP pipeline in VHDL using **Discrete Wavelet Transforms (DWT)**.
-* Development of a **custom SPI controller from scratch** (FSM) and integration of **2-out-of-3 voting logic** for high-reliability clinical measurements.
-* Coordinated between UPM (Spain) and AGH Krakow (Poland).
+#### [Real-Time 3D Vectorcardiography & ECG Analysis on FPGA](https://github.com/aghidalgo04/ECG_in_FPGA_Thesis)
+* **Bachelor Thesis:** Designed and implemented a portable digital architecture on an **Artix-7 FPGA** for real-time 3D cardiac monitoring and autonomous pathology detection (Arrhythmia, Bradycardia, Tachycardia, Asystole, and Sudden Death risk).
+* **DSP & RTL Design:** Developed a parallel processing pipeline in **VHDL** utilizing a **3D Wavelet Transform (*à trous* algorithm)** and adaptive state machines for precise QRS and T-wave delineation, heavily optimizing hardware resources via bit-shifting arithmetic.
+* **Data Integrity:** Engineered a custom **SPI controller (FSM)** and a **majority voting logic (2-out-of-3)** to synchronize spatial axes and eliminate noise-induced false positives.
+* **Telemetry:** Programmed an interactive **Python dashboard** to parse UART frames, rendering the raw signals, real-time medical alerts, and the 3D VCG loop dynamically.
 
 #### [Gas Detection System - RTL Architecture](https://github.com/aghidalgo04/SistemaDeteccionGasesHogar)
 * Modular VHDL design for **Artix-7** utilizing the **Xilinx XADC IP Core** for real-time monitoring of CH4 and CO2.
